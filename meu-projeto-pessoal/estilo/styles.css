@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background: url('../imagens/gifs/gif1.gif');
+    width: 100vw;
+    height: 100vh;
+}
+
+main#login {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #ffffff00;
+    width: 280px;
+    height: 600px;
+    
+}
+
+section > div {
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 300px;
+    height: 600px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 0px 0px 30px 0px;
+    background-color: red;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+p {
+    line-height: 3em;
+    padding: 10px;
+}

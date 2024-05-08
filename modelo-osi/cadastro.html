@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="estilo/estilo2.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <h1>Criar Conta</h1>
+                <form action="index.html" method="post">
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" required minlength="5" maxlength="45" placeholder="Nome completo minimo 5 letras" autocomplete="username">
+                </p>
+                <p>
+                    <label for="ipass">Palavra Passe</label>
+                    <input type="password" name="pass" id="ipass" required minlength="8" maxlength="18"
+                    autocomplete="new-password" placeholder="Password minimo 8 digitos">
+                </p>
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" required placeholder="exemplo@gamil.com" autocomplete="email">
+                </p>
+                <p>
+                    <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" required max="9" autocomplete="tel">
+                </p>
+                <p>
+                    <label for="idate">Data de nascimento</label>
+                    <input type="date" name="date" id="idate" required>
+                </p>
+                <fieldset>
+                    <legend>Gênero</legend>
+                    <p>
+                        <label for="imasc">Masculino</label>
+                        <input type="radio" name="sexo" id="imasc" required>
+                        <label for="ifem">Feminino</label>
+                        <input type="radio" name="sexo" id="ifem">
+                        <label for="ipers">Personalizado</label>
+                        <input type="radio" name="sexo" id="ipers">
+                    </p>
+                </fieldset>
+                <p>
+                    <input class="botao" type="submit" value="Cadastrar-se">
+                    <input class="botao" type="reset" value="Cancelar">
+                </p>
+            </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

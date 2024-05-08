@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body , html {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #b8d8fd;
+}
+
+nav {
+    background-image: linear-gradient(to right, #0077ff, #1cac1c);
+    text-align: right;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav > a {
+    position: relative;
+    top: 4px;
+    left: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 9px;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: #1ee21e;
+    border: 1px solid #1cac1c;
+}
+
+header {
+    background-image: linear-gradient(to right, #0077ff, #1cac1c);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+header > h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 8vw;
+}
+
+main {
+    max-width: 720px;
+    margin: 0px auto;
+    padding: 15px;
+    background-color: white;
+}
+
+main h1 {
+    font-size: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+main h2 {
+    color: darkred;
+    text-align: center;
+}
+
+main h3 {
+    color: darkblue;
+    text-indent: 20px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main p > strong {
+    color: red;
+    font-family: 'Times New Roman', serif;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+main ul > li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 4px 10px;
+}
+
+td.num {
+    background-color: #ff8989;
+    width: 50vw;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+td {
+    background-color: #f03b3b;
+    width: 50vw;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+main p > a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    background-color: rgb(195, 195, 248);
+}
+
+footer p{
+    background-color: #0077ff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+footer p > a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+}
